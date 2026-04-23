@@ -186,26 +186,6 @@ Revenue infrastructure that just works:
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=usmang-dev&amp;show_icons=true&amp;theme=tokyonight&amp;include_all_commits=true&amp;count_private=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;icon_color=58A6FF&amp;text_color=C9D1D9" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=usmang-dev&amp;layout=compact&amp;langs_count=8&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=58A6FF&amp;text_color=C9D1D9" />
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=usmang-dev&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;stroke=58A6FF&amp;ring=58A6FF&amp;fire=FF6B6B&amp;currStreakLabel=58A6FF&amp;sideLabels=C9D1D9&amp;currStreakNum=ffffff&amp;sideNums=ffffff&amp;dates=8B949E" />
-
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=usmang-dev&amp;bg_color=0d1117&amp;color=58a6ff&amp;line=1f6feb&amp;point=58a6ff&amp;area=true&amp;area_color=1f6feb&amp;hide_border=true" />
-</div>
-
----
 
 ## 💡 What I Bring to Your Team
 
