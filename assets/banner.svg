@@ -1,0 +1,88 @@
+<svg width="1280" height="220" viewBox="0 0 1280 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="55%"  stop-color="#0d1f3c"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="50%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0d1117"/>
+      <stop offset="50%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Decorative dot grid -->
+  <g opacity="0.07">
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#58a6ff"/>
+    </pattern>
+    <rect width="1280" height="220" fill="url(#dots)"/>
+  </g>
+
+  <!-- Glowing orb left -->
+  <ellipse cx="120" cy="90" rx="130" ry="80" fill="#1f6feb" opacity="0.12"/>
+  <!-- Glowing orb right -->
+  <ellipse cx="1180" cy="80" rx="150" ry="90" fill="#58a6ff" opacity="0.10"/>
+
+  <!-- Wave layer 1 (back) -->
+  <path d="M0,160 C160,130 320,185 480,160 C640,135 800,175 960,155 C1120,135 1200,165 1280,150 L1280,220 L0,220 Z"
+        fill="url(#waveGrad1)"/>
+
+  <!-- Wave layer 2 (front) -->
+  <path d="M0,180 C200,155 400,200 600,178 C800,156 1000,195 1280,170 L1280,220 L0,220 Z"
+        fill="url(#waveGrad2)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="1280" height="2" fill="url(#textGrad)" opacity="0.3"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="220" fill="#1f6feb" opacity="0.6"/>
+
+  <!-- Main name -->
+  <text x="640" y="105"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="68"
+        font-weight="800"
+        text-anchor="middle"
+        fill="url(#textGrad)"
+        filter="url(#glow)"
+        letter-spacing="2">
+    Usman Ghani
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640" y="148"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="19"
+        font-weight="400"
+        text-anchor="middle"
+        fill="#93c5fd"
+        letter-spacing="3"
+        opacity="0.92">
+    SENIOR FULL STACK ENGINEER  ·  AI &amp; LLM INTEGRATION SPECIALIST
+  </text>
+
+  <!-- Small decorative dots -->
+  <circle cx="350" cy="148" r="3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="930" cy="148" r="3" fill="#58a6ff" opacity="0.6"/>
+</svg>
